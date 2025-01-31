@@ -3,7 +3,7 @@ import LinkedInIcon from "./../public/assets/icons/linkedin.svg";
 import InstagramIcon from "./../public/assets/icons/instagram.svg";
 import ProblemSolvingIcon from "./../public/assets/icons/problem-solving.svg";
 import BackendIcon from "./../public/assets/icons/backend.svg"
-import MachineLearningIcon from './../public/assets/icons/machine_learning.svg'
+import DevOpsIcon from './../public/assets/icons/devops.svg'
 
 const staticText = {
   owner: "Rohit Singh",
@@ -56,8 +56,8 @@ const services = [
     icon: <BackendIcon />,
   },
   {
-    title: "AI/ML Engineer",
-    icon: <MachineLearningIcon />,
+    title: "DevOps",
+    icon: <DevOpsIcon/>,
   },
   // {
   //   title: "Backend Developer",
@@ -272,35 +272,27 @@ const testimonials = [
 
 const projects = [
   {
-    name: "To-Do App: Organize Your Tasks Like a Pro",
+    name: "Delegated YouTube Content Manager",
     description:
-      "In today’s fast-paced world, staying organized is the key to productivity. That’s why I built a To-Do App that makes task management not just efficient, but enjoyable. Leveraging the power of React, Redux, Node.js, and GraphQL, this app offers a seamless experience from the moment you log in. Whether you’re categorizing tasks by projects or personal goals, this app keeps everything neatly organized, right at your fingertips. With intuitive design and robust functionality, it’s more than just a to-do list—it’s your personal productivity partner. Dive in, and take control of your tasks like never before!",
+      "Developed a solution to simplify video management on YouTube, enabling channel owners to delegate video uploads to authorised editors with an approval workflow to ensure content aligns with channel guidelines. Added features like automated video preview generation and notification workflows for approval. Secured the application using encrypted access tokens and JWT for endpoint protection. Implemented a video review mechanism for quality control and adherence to guidelines. Configured CI/CD pipelines with GitHub Actions for seamless testing and deployment and documented APIs using Swagger UI for clear developer communication.",
     tags: [
       {
-        name: "javascript",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "react.js",
+        name: "springboot",
         color: "green-text-gradient",
       },
       {
-        name: "styled-component",
+        name: "oAuth2",
         color: "pink-text-gradient",
-      },
-      {
-        name: "nodej.s",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "GraphQL",
-        color: "yellow-text-gradient",
-      },
+      }
     ],
     image:
-      "/assets/projects/jartodo.png",
-    source_code_link: "https://github.com/Uchiha-Itachi0/todo-backend",
-    deployed_link: "https://jartodo.netlify.app/",
+      "/assets/projects/youtube-upload.svg",
+    source_code_link: "https://github.com/imrohit68/youtube-upload",
+    deployed_link: "http://13.203.76.146:8090/swagger-ui/index.html#/",
   },
   {
     name: "Real-Time Collaborative Code Editor",
@@ -319,7 +311,7 @@ const projects = [
     ],
     image: "/assets/projects/collab-editor.png",
     source_code_link: "https://github.com/imrohit68/collab-editor",
-    deployed_link: "https://github.com/Uchiha-Itachi0/recommendation_system",
+    deployed_link: "http://13.203.76.146:8080",
   },
   {
     name: "Microservice Architecture using Spring Boot Framework",
