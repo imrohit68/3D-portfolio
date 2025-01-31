@@ -216,7 +216,7 @@ const experiences = [
   {
     title: "Backend Developer Intern",
     company_name: "Go Smart Fintools",
-    icon: "/assets/company/goSmartFintools.png",
+    icon: "/assets/company/udyam.svg",
     iconBg: "#E6DEDD",
     date: "October 2024 - Current",
     points: [
