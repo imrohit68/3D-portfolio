@@ -23,11 +23,11 @@ export default function App({ Component, pageProps }) {
 		}
 	}, [loading]);
 
-	const title = "Portfolio | Anubhav Shukla";
+	const title = "Portfolio | Rohit Singh";
 	const description =
-		"Hello! I'm Anubhav Shukla, a passionate web developer and problem solver. Welcome to my portfolio";
+		"Hello! I'm Rohit Singh, a passionate backend developer and problem solver. Welcome to my portfolio";
 	const avatar =
-		"/assets/avatar-meta.png";
+		"/assets/avatar.png";
 	const url = "https://shivam-sharma-myportfolio.vercel.app/";
 
 	return (
