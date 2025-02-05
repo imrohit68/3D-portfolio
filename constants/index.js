@@ -292,7 +292,7 @@ const projects = [
     image:
       "/assets/projects/youtube-upload.svg",
     source_code_link: "https://github.com/imrohit68/youtube-upload",
-    deployed_link: "http://13.203.76.146:8090/swagger-ui/index.html#/",
+    deployed_link: "http://13.203.192.43:8090/swagger-ui/index.html#/",
   },
   {
     name: "Real-Time Collaborative Code Editor",
@@ -311,7 +311,7 @@ const projects = [
     ],
     image: "/assets/projects/collab-editor.png",
     source_code_link: "https://github.com/imrohit68/collab-editor",
-    deployed_link: "http://13.203.76.146:8080",
+    deployed_link: "http://13.203.192.43:8080/",
   },
   {
     name: "Microservice Architecture using Spring Boot Framework",
@@ -345,6 +345,38 @@ const projects = [
     deployed_link:
       "https://github.com/imrohit68/sports-app-microservies",
   },
+  {
+    name: "E-commerce Printing Backend – Spring Boot & AWS",
+    description:
+      "Developed a robust end-to-end backend for an E-commerce Printing Platform using Spring Boot, PostgreSQL, and AWS. Designed and implemented RESTful APIs for user authentication, store registration, order placement, and payment processing. Integrated OTP-based login with JWT authentication for secure access control. Managed document storage and retrieval using AWS S3, ensuring efficient file handling. Enabled seamless payment transactions through Razorpay, supporting multiple payment methods. Optimised database interactions with Spring Data JPA for efficient order and user management. Deployed the application on AWS EC2.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring Boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgres",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "razorpay",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "/assets/projects/print-app.png",
+    source_code_link:
+      "https://drive.google.com/drive/folders/1Y5Wz-j92KCebeEZTDTFnPiuU7cuWWHd_?usp=sharing",
+    deployed_link:
+      "https://drive.google.com/drive/folders/1Y5Wz-j92KCebeEZTDTFnPiuU7cuWWHd_?usp=sharing",
+  }
   // {
   //   name: "Netflix Clone",
   //   description:

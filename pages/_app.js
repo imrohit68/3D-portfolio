@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }) {
 	const description =
 		"Hello! I'm Rohit Singh, a passionate backend developer and problem solver. Welcome to my portfolio";
 	const avatar =
-		"/assets/avatar.png";
+		"/assets/avatar-meta.png";
 	const url = "https://shivam-sharma-myportfolio.vercel.app/";
 
 	return (
