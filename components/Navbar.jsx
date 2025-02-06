@@ -145,7 +145,7 @@ function Navbar() {
 										{
 											nav.id === 'resume' ?
 												<Link
-													href="document/RohitSingh.pdf"
+													href="document/RohitResume.pdf"
 													target="_blank"
 													rel="noreferrer"
 													className="w-fit"

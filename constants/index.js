@@ -292,7 +292,7 @@ const projects = [
     image:
       "/assets/projects/youtube-upload.svg",
     source_code_link: "https://github.com/imrohit68/youtube-upload",
-    deployed_link: "http://13.203.192.43:8090/swagger-ui/index.html#/",
+    deployed_link: "https://drive.google.com/file/d/13JK4ZjgHaFA6hqxgs4DmIsETUeMo4d9J/view?usp=sharing",
   },
   {
     name: "Real-Time Collaborative Code Editor",
@@ -311,7 +311,7 @@ const projects = [
     ],
     image: "/assets/projects/collab-editor.png",
     source_code_link: "https://github.com/imrohit68/collab-editor",
-    deployed_link: "http://13.203.192.43:8080/",
+    deployed_link: "http://13.233.156.55:8080/",
   },
   {
     name: "Microservice Architecture using Spring Boot Framework",
@@ -373,7 +373,7 @@ const projects = [
     ],
     image: "/assets/projects/print-app.png",
     source_code_link:
-      "https://drive.google.com/drive/folders/1Y5Wz-j92KCebeEZTDTFnPiuU7cuWWHd_?usp=sharing",
+      "https://github.com/imrohit68/print-app-poc",
     deployed_link:
       "https://drive.google.com/drive/folders/1Y5Wz-j92KCebeEZTDTFnPiuU7cuWWHd_?usp=sharing",
   }
